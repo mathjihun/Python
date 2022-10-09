@@ -1,5 +1,5 @@
 with open('경로', 'r') as f:       # with문은 file을 close할 필요가 없다.
-    line = f.readline()
+    line = f.readline()            # readline은 한 줄 읽어온 뒤 다음 줄로 커서를 옮겨준다.
     # readlines()는 이스케이프 시퀀스 예를 들어 \n까지도 문자로 가져오고 줄 별로 모아서 하나의 리스트를 반환한다.
     # ex) [hi i am student\n, i love math\n]
 
